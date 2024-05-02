@@ -2,6 +2,8 @@ const { Telegraf } = require("telegraf");
 const dotenv = require("dotenv");
 dotenv.config();
 
+console.log("i work");
+
 // База правил
 const rules = require("./baseRules.js");
 
